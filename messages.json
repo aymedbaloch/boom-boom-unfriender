@@ -1,0 +1,18 @@
+{
+  "extName": {
+    "message": "Boom Boom Unfriender",
+    "description": "Extension name shown in chrome://extensions and the Web Store."
+  },
+  "extShortName": {
+    "message": "Boom Boom",
+    "description": "Short name used where space is limited (e.g. toolbar)."
+  },
+  "extActionTitle": {
+    "message": "Open Boom Boom Unfriender",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "extDescription": {
+    "message": "Review your Facebook friends list and remove people in bulk, right from the side panel.",
+    "description": "Shown on the extension's Chrome Web Store listing and details page."
+  }
+}

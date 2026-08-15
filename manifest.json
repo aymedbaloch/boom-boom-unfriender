@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/128.png",
+         "16": "icons/16.png",
+         "48": "icons/48.png"
+      },
+      "default_title": "__MSG_extActionTitle__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "host_permissions": [ "https://www.facebook.com/*", "https://web.facebook.com/*", "https://cleanmysocial.verblike.com/*" ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAncGJ51sbp4dv+teL+v3gGaWBJ98QLbjyNQ+W/aBIaGDFQv5ycPOTk8hnlZvhOSeW64ZsWKIBASmGFsgUkZm/HNfGB3dzmaJeXfUfhkuCbe7ftj0OLTJzAr9T7xpLecMg40vPpSoZgup76YM8kitgG3+oiIhcbdGjTkzDWzwKsEK4P9teafkqpKKZUOgoZYRc8cGuyweHbVqLaNXlKsCbuju6oVt23pPOI60RoNRI+nTo4RaDOagmuOqTNurIk6gjRwbVnfLf65BFWHCuE6A26KQ7Zvg1Gf+UW/w4qsybOFAuy8TaeG2MJx69BuOvBCdT/mP80JhCYnpZqYBOwsXb/QIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "114",
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "tabs", "sidePanel", "scripting", "cookies", "declarativeNetRequest" ],
+   "short_name": "__MSG_extShortName__",
+   "side_panel": {
+      "default_path": "sidepanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "54.1"
+}
